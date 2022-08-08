@@ -13,5 +13,7 @@ jobs:
           node-version: '16'
       - run: npm install
       - run: npm test
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: test 할 수 있었으면..
+        run: |
+          npm ci
+          npm run lint
