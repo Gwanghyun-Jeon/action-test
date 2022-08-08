@@ -13,7 +13,4 @@ jobs:
           node-version: '16'
       - run: npm install
       - run: npm test
-      - name: test 할 수 있었으면..
-        run: |
-          npm ci
-          npm run lint
+          
